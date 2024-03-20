@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB2853592B28FC51003338A4 /* HeadwayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2853582B28FC51003338A4 /* HeadwayApp.swift */; };
+		EB28535B2B28FC51003338A4 /* BookKeypointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB28535A2B28FC51003338A4 /* BookKeypointsView.swift */; };
+		EB28535D2B28FC52003338A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB28535C2B28FC52003338A4 /* Assets.xcassets */; };
+		EB2853602B28FC52003338A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB28535F2B28FC52003338A4 /* Preview Assets.xcassets */; };
+		EB28536A2B28FC53003338A4 /* AudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2853692B28FC53003338A4 /* AudioPlayerTests.swift */; };
+		EB2853742B28FC53003338A4 /* HeadwayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2853732B28FC53003338A4 /* HeadwayUITests.swift */; };
+		EB2853762B28FC53003338A4 /* HeadwayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2853752B28FC53003338A4 /* HeadwayUITestsLaunchTests.swift */; };
+		EB2853CB2B32436F003338A4 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = EB2853CA2B32436F003338A4 /* ComposableArchitecture */; };
+		EB2853D42B32453F003338A4 /* BookKeypoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2853D32B32453F003338A4 /* BookKeypoints.swift */; };
+		EB2853D92B324743003338A4 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2853D82B324743003338A4 /* AudioPlayer.swift */; };
+		EB2854322B325912003338A4 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2854312B325912003338A4 /* SliderView.swift */; };
+		EB2854342B32623D003338A4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2854332B32623D003338A4 /* Colors.xcassets */; };
+		EB7A6DBD2B3B6AF900A28C2B /* AudioPlayerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A6DBC2B3B6AF900A28C2B /* AudioPlayerClient.swift */; };
+		EB7A6DBF2B3B6D5100A28C2B /* AudioPlayerClientDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A6DBE2B3B6D5100A28C2B /* AudioPlayerClientDependencies.swift */; };
+		EB7A6DC32B3B930200A28C2B /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A6DC22B3B930200A28C2B /* AudioPlayerView.swift */; };
+		EB7A6DC52B3B972300A28C2B /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A6DC42B3B972300A28C2B /* Array+Extension.swift */; };
+		EB7A6DC82B3C57C700A28C2B /* Book+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A6DC72B3C57C700A28C2B /* Book+Mock.swift */; };
+		EB7A6DCA2B3CFF6C00A28C2B /* AudioPlayerClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A6DC92B3CFF6C00A28C2B /* AudioPlayerClientMock.swift */; };
+		EBECA2BF2B3647AB0082EFB3 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBECA2BE2B3647AB0082EFB3 /* Double+Extension.swift */; };
+		EBECA2C22B3651860082EFB3 /* PlayerButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBECA2C12B3651860082EFB3 /* PlayerButtonStyle.swift */; };
+		EBECA2C42B37A5FF0082EFB3 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBECA2C32B37A5FF0082EFB3 /* APIClient.swift */; };
+		EBECA2C62B37A65A0082EFB3 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBECA2C52B37A65A0082EFB3 /* Book.swift */; };
+		EBECA2C92B37A6CF0082EFB3 /* BookKeypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBECA2C82B37A6CF0082EFB3 /* BookKeypoint.swift */; };
+		EBECA2CD2B37A83D0082EFB3 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBECA2CC2B37A83D0082EFB3 /* AppEnvironment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB2853662B28FC53003338A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB28534D2B28FC51003338A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2853542B28FC51003338A4;
+			remoteInfo = Headway;
+		};
+		EB2853702B28FC53003338A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB28534D2B28FC51003338A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2853542B28FC51003338A4;
+			remoteInfo = Headway;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB2853552B28FC51003338A4 /* Headway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Headway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2853582B28FC51003338A4 /* HeadwayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadwayApp.swift; sourceTree = "<group>"; };
+		EB28535A2B28FC51003338A4 /* BookKeypointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookKeypointsView.swift; sourceTree = "<group>"; };
+		EB28535C2B28FC52003338A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB28535F2B28FC52003338A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB2853652B28FC53003338A4 /* HeadwayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadwayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2853692B28FC53003338A4 /* AudioPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerTests.swift; sourceTree = "<group>"; };
+		EB28536F2B28FC53003338A4 /* HeadwayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadwayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2853732B28FC53003338A4 /* HeadwayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadwayUITests.swift; sourceTree = "<group>"; };
+		EB2853752B28FC53003338A4 /* HeadwayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadwayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB2853D32B32453F003338A4 /* BookKeypoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookKeypoints.swift; sourceTree = "<group>"; };
+		EB2853D82B324743003338A4 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		EB2854312B325912003338A4 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		EB2854332B32623D003338A4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		EB7A6DBC2B3B6AF900A28C2B /* AudioPlayerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerClient.swift; sourceTree = "<group>"; };
+		EB7A6DBE2B3B6D5100A28C2B /* AudioPlayerClientDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerClientDependencies.swift; sourceTree = "<group>"; };
+		EB7A6DC22B3B930200A28C2B /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		EB7A6DC42B3B972300A28C2B /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		EB7A6DC72B3C57C700A28C2B /* Book+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+Mock.swift"; sourceTree = "<group>"; };
+		EB7A6DC92B3CFF6C00A28C2B /* AudioPlayerClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerClientMock.swift; sourceTree = "<group>"; };
+		EBECA2BE2B3647AB0082EFB3 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		EBECA2C12B3651860082EFB3 /* PlayerButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerButtonStyle.swift; sourceTree = "<group>"; };
+		EBECA2C32B37A5FF0082EFB3 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		EBECA2C52B37A65A0082EFB3 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		EBECA2C82B37A6CF0082EFB3 /* BookKeypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookKeypoint.swift; sourceTree = "<group>"; };
+		EBECA2CC2B37A83D0082EFB3 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB2853522B28FC51003338A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2853CB2B32436F003338A4 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2853622B28FC53003338A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB28536C2B28FC53003338A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB28534C2B28FC51003338A4 = {
+			isa = PBXGroup;
+			children = (
+				EB2853572B28FC51003338A4 /* Headway */,
+				EB2853682B28FC53003338A4 /* HeadwayTests */,
+				EB2853722B28FC53003338A4 /* HeadwayUITests */,
+				EB2853562B28FC51003338A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB2853562B28FC51003338A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2853552B28FC51003338A4 /* Headway.app */,
+				EB2853652B28FC53003338A4 /* HeadwayTests.xctest */,
+				EB28536F2B28FC53003338A4 /* HeadwayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB2853572B28FC51003338A4 /* Headway */ = {
+			isa = PBXGroup;
+			children = (
+				EB2853CC2B324470003338A4 /* Sources */,
+				EB28535E2B28FC52003338A4 /* Preview Content */,
+			);
+			path = Headway;
+			sourceTree = "<group>";
+		};
+		EB28535E2B28FC52003338A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB28535F2B28FC52003338A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB2853682B28FC53003338A4 /* HeadwayTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7A6DCB2B3D65EC00A28C2B /* AudioPlayer */,
+			);
+			path = HeadwayTests;
+			sourceTree = "<group>";
+		};
+		EB2853722B28FC53003338A4 /* HeadwayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2853732B28FC53003338A4 /* HeadwayUITests.swift */,
+				EB2853752B28FC53003338A4 /* HeadwayUITestsLaunchTests.swift */,
+			);
+			path = HeadwayUITests;
+			sourceTree = "<group>";
+		};
+		EB2853CC2B324470003338A4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EB7A6DBB2B3B6AE800A28C2B /* Clients */,
+				EBECA2BD2B3647890082EFB3 /* Helpers */,
+				EB2853D12B3244CD003338A4 /* Resources */,
+				EB2853CD2B324481003338A4 /* App */,
+				EB2853CE2B32449D003338A4 /* Features */,
+				EB2853CF2B3244B1003338A4 /* Shared */,
+				EB2853D02B3244C0003338A4 /* Networking */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EB2853CD2B324481003338A4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EB2853582B28FC51003338A4 /* HeadwayApp.swift */,
+				EBECA2CC2B37A83D0082EFB3 /* AppEnvironment.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EB2853CE2B32449D003338A4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EB2853D72B324725003338A4 /* AudioPlayer */,
+				EB2853D22B32452B003338A4 /* BookKeypoints */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		EB2853CF2B3244B1003338A4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EBECA2C02B36516C0082EFB3 /* Styles */,
+				EB2854302B325899003338A4 /* Components */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EB2853D02B3244C0003338A4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EBECA2C72B37A6BE0082EFB3 /* Models */,
+				EBECA2C32B37A5FF0082EFB3 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EB2853D12B3244CD003338A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB28535C2B28FC52003338A4 /* Assets.xcassets */,
+				EB2854332B32623D003338A4 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EB2853D22B32452B003338A4 /* BookKeypoints */ = {
+			isa = PBXGroup;
+			children = (
+				EB2853D32B32453F003338A4 /* BookKeypoints.swift */,
+				EB28535A2B28FC51003338A4 /* BookKeypointsView.swift */,
+			);
+			path = BookKeypoints;
+			sourceTree = "<group>";
+		};
+		EB2853D72B324725003338A4 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EB2853D82B324743003338A4 /* AudioPlayer.swift */,
+				EB7A6DC22B3B930200A28C2B /* AudioPlayerView.swift */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		EB2854302B325899003338A4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EB2854312B325912003338A4 /* SliderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EB7A6DBB2B3B6AE800A28C2B /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				EB7A6DBC2B3B6AF900A28C2B /* AudioPlayerClient.swift */,
+				EB7A6DBE2B3B6D5100A28C2B /* AudioPlayerClientDependencies.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		EB7A6DC62B3C57BD00A28C2B /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				EB7A6DC72B3C57C700A28C2B /* Book+Mock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		EB7A6DCB2B3D65EC00A28C2B /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EB2853692B28FC53003338A4 /* AudioPlayerTests.swift */,
+				EB7A6DC92B3CFF6C00A28C2B /* AudioPlayerClientMock.swift */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		EBECA2BD2B3647890082EFB3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EBECA2BE2B3647AB0082EFB3 /* Double+Extension.swift */,
+				EB7A6DC42B3B972300A28C2B /* Array+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EBECA2C02B36516C0082EFB3 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				EBECA2C12B3651860082EFB3 /* PlayerButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		EBECA2C72B37A6BE0082EFB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB7A6DC62B3C57BD00A28C2B /* Mocks */,
+				EBECA2C52B37A65A0082EFB3 /* Book.swift */,
+				EBECA2C82B37A6CF0082EFB3 /* BookKeypoint.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB2853542B28FC51003338A4 /* Headway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2853792B28FC53003338A4 /* Build configuration list for PBXNativeTarget "Headway" */;
+			buildPhases = (
+				EB2853512B28FC51003338A4 /* Sources */,
+				EB2853522B28FC51003338A4 /* Frameworks */,
+				EB2853532B28FC51003338A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Headway;
+			packageProductDependencies = (
+				EB2853CA2B32436F003338A4 /* ComposableArchitecture */,
+			);
+			productName = Headway;
+			productReference = EB2853552B28FC51003338A4 /* Headway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB2853642B28FC53003338A4 /* HeadwayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB28537C2B28FC53003338A4 /* Build configuration list for PBXNativeTarget "HeadwayTests" */;
+			buildPhases = (
+				EB2853612B28FC53003338A4 /* Sources */,
+				EB2853622B28FC53003338A4 /* Frameworks */,
+				EB2853632B28FC53003338A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2853672B28FC53003338A4 /* PBXTargetDependency */,
+			);
+			name = HeadwayTests;
+			productName = HeadwayTests;
+			productReference = EB2853652B28FC53003338A4 /* HeadwayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB28536E2B28FC53003338A4 /* HeadwayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB28537F2B28FC53003338A4 /* Build configuration list for PBXNativeTarget "HeadwayUITests" */;
+			buildPhases = (
+				EB28536B2B28FC53003338A4 /* Sources */,
+				EB28536C2B28FC53003338A4 /* Frameworks */,
+				EB28536D2B28FC53003338A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2853712B28FC53003338A4 /* PBXTargetDependency */,
+			);
+			name = HeadwayUITests;
+			productName = HeadwayUITests;
+			productReference = EB28536F2B28FC53003338A4 /* HeadwayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB28534D2B28FC51003338A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EB2853542B28FC51003338A4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EB2853642B28FC53003338A4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EB2853542B28FC51003338A4;
+					};
+					EB28536E2B28FC53003338A4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EB2853542B28FC51003338A4;
+					};
+				};
+			};
+			buildConfigurationList = EB2853502B28FC51003338A4 /* Build configuration list for PBXProject "Headway" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB28534C2B28FC51003338A4;
+			packageReferences = (
+				EB2853C92B32436F003338A4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = EB2853562B28FC51003338A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB2853542B28FC51003338A4 /* Headway */,
+				EB2853642B28FC53003338A4 /* HeadwayTests */,
+				EB28536E2B28FC53003338A4 /* HeadwayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB2853532B28FC51003338A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2854342B32623D003338A4 /* Colors.xcassets in Resources */,
+				EB2853602B28FC52003338A4 /* Preview Assets.xcassets in Resources */,
+				EB28535D2B28FC52003338A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2853632B28FC53003338A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB28536D2B28FC53003338A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB2853512B28FC51003338A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7A6DBF2B3B6D5100A28C2B /* AudioPlayerClientDependencies.swift in Sources */,
+				EB2853D92B324743003338A4 /* AudioPlayer.swift in Sources */,
+				EB2853D42B32453F003338A4 /* BookKeypoints.swift in Sources */,
+				EB7A6DBD2B3B6AF900A28C2B /* AudioPlayerClient.swift in Sources */,
+				EB7A6DC82B3C57C700A28C2B /* Book+Mock.swift in Sources */,
+				EBECA2BF2B3647AB0082EFB3 /* Double+Extension.swift in Sources */,
+				EB2854322B325912003338A4 /* SliderView.swift in Sources */,
+				EBECA2C22B3651860082EFB3 /* PlayerButtonStyle.swift in Sources */,
+				EB7A6DC52B3B972300A28C2B /* Array+Extension.swift in Sources */,
+				EB28535B2B28FC51003338A4 /* BookKeypointsView.swift in Sources */,
+				EB7A6DC32B3B930200A28C2B /* AudioPlayerView.swift in Sources */,
+				EBECA2CD2B37A83D0082EFB3 /* AppEnvironment.swift in Sources */,
+				EBECA2C92B37A6CF0082EFB3 /* BookKeypoint.swift in Sources */,
+				EB2853592B28FC51003338A4 /* HeadwayApp.swift in Sources */,
+				EBECA2C62B37A65A0082EFB3 /* Book.swift in Sources */,
+				EBECA2C42B37A5FF0082EFB3 /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2853612B28FC53003338A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7A6DCA2B3CFF6C00A28C2B /* AudioPlayerClientMock.swift in Sources */,
+				EB28536A2B28FC53003338A4 /* AudioPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB28536B2B28FC53003338A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2853762B28FC53003338A4 /* HeadwayUITestsLaunchTests.swift in Sources */,
+				EB2853742B28FC53003338A4 /* HeadwayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB2853672B28FC53003338A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2853542B28FC51003338A4 /* Headway */;
+			targetProxy = EB2853662B28FC53003338A4 /* PBXContainerItemProxy */;
+		};
+		EB2853712B28FC53003338A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2853542B28FC51003338A4 /* Headway */;
+			targetProxy = EB2853702B28FC53003338A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB2853772B28FC53003338A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB2853782B28FC53003338A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB28537A2B28FC53003338A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Headway/Preview Content\"";
+				DEVELOPMENT_TEAM = 4VL634SY57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.tanaev.Headway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB28537B2B28FC53003338A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Headway/Preview Content\"";
+				DEVELOPMENT_TEAM = 4VL634SY57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.tanaev.Headway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB28537D2B28FC53003338A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VL634SY57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.tanaev.HeadwayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Headway.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Headway";
+			};
+			name = Debug;
+		};
+		EB28537E2B28FC53003338A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VL634SY57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.tanaev.HeadwayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Headway.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Headway";
+			};
+			name = Release;
+		};
+		EB2853802B28FC53003338A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VL634SY57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.tanaev.HeadwayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Headway;
+			};
+			name = Debug;
+		};
+		EB2853812B28FC53003338A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VL634SY57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.tanaev.HeadwayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Headway;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB2853502B28FC51003338A4 /* Build configuration list for PBXProject "Headway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2853772B28FC53003338A4 /* Debug */,
+				EB2853782B28FC53003338A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2853792B28FC53003338A4 /* Build configuration list for PBXNativeTarget "Headway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB28537A2B28FC53003338A4 /* Debug */,
+				EB28537B2B28FC53003338A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB28537C2B28FC53003338A4 /* Build configuration list for PBXNativeTarget "HeadwayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB28537D2B28FC53003338A4 /* Debug */,
+				EB28537E2B28FC53003338A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB28537F2B28FC53003338A4 /* Build configuration list for PBXNativeTarget "HeadwayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2853802B28FC53003338A4 /* Debug */,
+				EB2853812B28FC53003338A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB2853C92B32436F003338A4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB2853CA2B32436F003338A4 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB2853C92B32436F003338A4 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EB28534D2B28FC51003338A4 /* Project object */;
+}

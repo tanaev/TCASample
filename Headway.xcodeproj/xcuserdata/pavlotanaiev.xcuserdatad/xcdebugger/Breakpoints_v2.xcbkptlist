@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "94E73A16-CA44-42F5-92B0-A38B994FE1E7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "881EB4E9-6BCB-4E3C-A35C-5ED839678427"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "881EB4E9-6BCB-4E3C-A35C-5ED839678427 - 181f2a236abe7f8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Headway.AudioPlayer.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "881EB4E9-6BCB-4E3C-A35C-5ED839678427 - d33360e06d0417e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout Headway.AudioPlayer.State, Headway.AudioPlayer.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.AudioPlayer.Action&gt; in Headway.AudioPlayer.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C124ECC8-6B95-4C56-9841-B433DD78FB2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C124ECC8-6B95-4C56-9841-B433DD78FB2E - d33360e06d04eba7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout Headway.AudioPlayer.State, Headway.AudioPlayer.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.AudioPlayer.Action&gt; in Headway.AudioPlayer.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "756">
+               </Location>
+               <Location
+                  uuid = "C124ECC8-6B95-4C56-9841-B433DD78FB2E - d33360e06d04efa4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout Headway.AudioPlayer.State, Headway.AudioPlayer.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.AudioPlayer.Action&gt; in Headway.AudioPlayer.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "2000">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A47E2C25-175A-4D77-A150-5084DA3D23C5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/AudioPlayer/PlayerClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "audioPlayerDidFinishPlaying(_:successfully:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A47E2C25-175A-4D77-A150-5084DA3D23C5 - 2d6c089146ea876f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Headway.Delegate.audioPlayerDidFinishPlaying(_: __C.AVAudioPlayer, successfully: Swift.Bool) -&gt; ()"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/AudioPlayer/PlayerClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "A47E2C25-175A-4D77-A150-5084DA3D23C5 - 2d6c089146ea876f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Headway.Delegate.audioPlayerDidFinishPlaying(_: __C.AVAudioPlayer, successfully: Swift.Bool) -&gt; ()"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/AudioPlayer/PlayerClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1BAC2C4-8D6C-416B-81C3-34E8029F22EA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/AudioPlayer/PlayerClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "audioPlayerDecodeErrorDidOccur(_:error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B1BAC2C4-8D6C-416B-81C3-34E8029F22EA - 427e72c1d4dae444"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Headway.Delegate.audioPlayerDecodeErrorDidOccur(_: __C.AVAudioPlayer, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/AudioPlayer/PlayerClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "B1BAC2C4-8D6C-416B-81C3-34E8029F22EA - 427e72c1d4dae444"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Headway.Delegate.audioPlayerDecodeErrorDidOccur(_: __C.AVAudioPlayer, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/AudioPlayer/PlayerClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73F906D5-5ED0-486B-A78A-778DA7523269"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/AudioPlayer/PlayerClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "init(url:didFinishPlaying:decodeErrorDidOccur:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22400139-9E46-48EA-BB88-378EBA24AAA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Clients/AudioPlayerClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "playAudio(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF155774-07FC-43CA-B26D-8311DB1342CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D6683FA-7F35-4922-AC78-98D3AEC7ED3F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B4AD460-A45E-45B0-81A8-906800665766"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/AudiobookPlayer/BookKeypoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41483D6C-3A24-4C2A-8B23-AE0C59E9C3D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "41483D6C-3A24-4C2A-8B23-AE0C59E9C3D7 - bb8d2f2eb1dbb4c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout Headway.BookKeypoints.State, Headway.BookKeypoints.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.BookKeypoints.Action&gt; in Headway.BookKeypoints.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1608">
+               </Location>
+               <Location
+                  uuid = "41483D6C-3A24-4C2A-8B23-AE0C59E9C3D7 - bb8d2f2eb1dbb4c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout Headway.BookKeypoints.State, Headway.BookKeypoints.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.BookKeypoints.Action&gt; in Headway.BookKeypoints.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFBDD7C2-B31C-4701-BAFB-9DBDDE318493"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "DFBDD7C2-B31C-4701-BAFB-9DBDDE318493 - bb8d2f2eb1dbb799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout Headway.BookKeypoints.State, Headway.BookKeypoints.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.BookKeypoints.Action&gt; in Headway.BookKeypoints.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "652">
+               </Location>
+               <Location
+                  uuid = "DFBDD7C2-B31C-4701-BAFB-9DBDDE318493 - bb8d2f2eb1dbb799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout Headway.BookKeypoints.State, Headway.BookKeypoints.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.BookKeypoints.Action&gt; in Headway.BookKeypoints.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "768">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A53C4A99-BF35-4443-84CA-BFF22D65B2A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Networking/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "liveValue"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6575705-D4BB-4E0D-9950-2A2DD7B358B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Networking/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "liveValue"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2E6BF71-59E1-4733-9206-0F1BDC580381"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B33E6569-69C3-4049-A64C-451B8D989029"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B33E6569-69C3-4049-A64C-451B8D989029 - bb8d2f2eb1dbb7b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout Headway.BookKeypoints.State, Headway.BookKeypoints.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.BookKeypoints.Action&gt; in Headway.BookKeypoints.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+               <Location
+                  uuid = "B33E6569-69C3-4049-A64C-451B8D989029 - 46956d14cfa1968a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (ComposableArchitecture.Send&lt;Headway.BookKeypoints.Action&gt;) async -&gt; () in closure #1 (inout Headway.BookKeypoints.State, Headway.BookKeypoints.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.BookKeypoints.Action&gt; in Headway.BookKeypoints.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "B33E6569-69C3-4049-A64C-451B8D989029 - 1defa6f0ce8b17a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;Headway.BookKeypoints.Action&gt;) async -&gt; () in closure #1 (inout Headway.BookKeypoints.State, Headway.BookKeypoints.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.BookKeypoints.Action&gt; in Headway.BookKeypoints.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "B33E6569-69C3-4049-A64C-451B8D989029 - 76817be2fdfc75a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;Headway.BookKeypoints.Action&gt;) async -&gt; () in closure #1 (inout Headway.BookKeypoints.State, Headway.BookKeypoints.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.BookKeypoints.Action&gt; in Headway.BookKeypoints.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30CB62BE-B084-4567-B3F2-E656B5D01D96"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D3A5E3E-FF2C-4CE0-8006-AD00731F98BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/BookKeypoints/BookKeypoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F65DA7B-82B8-4A34-9C15-4FF2D6AD8C6E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9F65DA7B-82B8-4A34-9C15-4FF2D6AD8C6E - d33360e06d04e2d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout Headway.AudioPlayer.State, Headway.AudioPlayer.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.AudioPlayer.Action&gt; in Headway.AudioPlayer.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "2964">
+               </Location>
+               <Location
+                  uuid = "9F65DA7B-82B8-4A34-9C15-4FF2D6AD8C6E - 421df5ac5da152a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUINavigationCore.TextState in closure #1 (inout Headway.AudioPlayer.State, Headway.AudioPlayer.Action) -&gt; ComposableArchitecture.Effect&lt;Headway.AudioPlayer.Action&gt; in Headway.AudioPlayer.body.getter : some"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5DD382D-A80E-42B8-B2FA-1DB2877A2206"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4063E90-133B-4AD8-B539-FFABFC020214"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Clients/AudioPlayerClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "observeValue(forKeyPath:of:change:context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4063E90-133B-4AD8-B539-FFABFC020214 - ef1421da28becf16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Headway.AudioPlayerClient.observeValue(forKeyPath: Swift.Optional&lt;Swift.String&gt;, of: Swift.Optional&lt;Any&gt;, change: Swift.Optional&lt;Swift.Dictionary&lt;__C.NSKeyValueChangeKey, Any&gt;&gt;, context: Swift.Optional&lt;Swift.UnsafeMutableRawPointer&gt;) -&gt; ()"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Clients/AudioPlayerClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  uuid = "A4063E90-133B-4AD8-B539-FFABFC020214 - ef1421da28becf16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Headway.AudioPlayerClient.observeValue(forKeyPath: Swift.Optional&lt;Swift.String&gt;, of: Swift.Optional&lt;Any&gt;, change: Swift.Optional&lt;Swift.Dictionary&lt;__C.NSKeyValueChangeKey, Any&gt;&gt;, context: Swift.Optional&lt;Swift.UnsafeMutableRawPointer&gt;) -&gt; ()"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Clients/AudioPlayerClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "804">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5A70673-C9BB-4E6B-B6D5-27C6CAA702E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Clients/AudioPlayerClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "observeValue(forKeyPath:of:change:context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C5A70673-C9BB-4E6B-B6D5-27C6CAA702E1 - cb7ca7b40d2fe2aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Headway.AudioPlayerClient.removePeriodicTimeObserver() -&gt; ()"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Clients/AudioPlayerClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "C5A70673-C9BB-4E6B-B6D5-27C6CAA702E1 - ef1421da28becf37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Headway.AudioPlayerClient.observeValue(forKeyPath: Swift.Optional&lt;Swift.String&gt;, of: Swift.Optional&lt;Any&gt;, change: Swift.Optional&lt;Swift.Dictionary&lt;__C.NSKeyValueChangeKey, Any&gt;&gt;, context: Swift.Optional&lt;Swift.UnsafeMutableRawPointer&gt;) -&gt; ()"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Clients/AudioPlayerClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "C5A70673-C9BB-4E6B-B6D5-27C6CAA702E1 - ef1421da28becf37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Headway.AudioPlayerClient.observeValue(forKeyPath: Swift.Optional&lt;Swift.String&gt;, of: Swift.Optional&lt;Any&gt;, change: Swift.Optional&lt;Swift.Dictionary&lt;__C.NSKeyValueChangeKey, Any&gt;&gt;, context: Swift.Optional&lt;Swift.UnsafeMutableRawPointer&gt;) -&gt; ()"
+                  moduleName = "Headway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavlotanaiev/Documents/Headway/Headway/Sources/Clients/AudioPlayerClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "652">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E1A904C-AEC0-4162-B680-B4EDC83EC8C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Headway/Sources/Features/AudioPlayer/AudioPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
